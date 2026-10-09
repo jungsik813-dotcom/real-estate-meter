@@ -1,0 +1,47 @@
+{
+  "as_of_date": "2026-10-09",
+  "latest_completed_month": "2026-09",
+  "world_bank_update": "Updated on October 02, 2026",
+  "source_ranges": {
+    "fred_exkous": {
+      "start": "1981-04",
+      "end": "2026-09",
+      "rows": 546,
+      "missing_values": 0
+    },
+    "fred_oecd": {
+      "start": "1957-01",
+      "end": "2026-08",
+      "rows": 836,
+      "missing_values": 0
+    },
+    "world_bank_gold": {
+      "start": "1960-01",
+      "end": "2026-09",
+      "rows": 801,
+      "missing_values": 0
+    }
+  },
+  "qqq_daily": {
+    "start": "1999-03-10",
+    "end": "2026-09-30",
+    "rows": 6933,
+    "dividends": 90,
+    "splits": 1
+  },
+  "integrated": {
+    "start": "1999-03",
+    "end": "2026-09",
+    "rows": 331,
+    "missing_cells": 0
+  },
+  "verification": {
+    "status": "PASS",
+    "monthly_grid": "331 consecutive unique months",
+    "source_reconciliation": "all monthly values reconciled",
+    "gold_formula": "all 331 rows checked",
+    "qqq_daily": "6933 unique sorted dates; positive prices; OHLC bounds checked",
+    "qqq_aggregation": "all monthly means independently recomputed using math.fsum; month-end values reconciled",
+    "missing_cells": 0
+  }
+}

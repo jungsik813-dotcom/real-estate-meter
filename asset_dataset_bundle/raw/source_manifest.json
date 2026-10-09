@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fred_oecd_usdkrw.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02KRM618N",
+    "bytes": 23710,
+    "retrieved_at_utc": "2026-10-09T07:37:23.136689+00:00",
+    "sha256": "56a55e66c04ba8afe430d18ca6339b6565380c76a71b9a29f05173458360f4df"
+  },
+  {
+    "file": "fred_exkous.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=EXKOUS",
+    "bytes": 11263,
+    "retrieved_at_utc": "2026-10-09T07:37:23.164603+00:00",
+    "sha256": "b786f9d5da70d4ab9004fca8a550af187f04420faa1ef194eb8a4cb7179c66b4"
+  },
+  {
+    "file": "world_bank_monthly.xlsx",
+    "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+    "bytes": 586099,
+    "retrieved_at_utc": "2026-10-09T07:37:23.204716+00:00",
+    "sha256": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154"
+  },
+  {
+    "file": "yahoo_qqq_daily.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=0&period2=1790812800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "bytes": 743405,
+    "retrieved_at_utc": "2026-10-09T07:37:23.790715+00:00",
+    "sha256": "756c467cbf138816f2413d21effe49d33ea3a9d857c0fa6482b62f26fb1017fd"
+  }
+]
